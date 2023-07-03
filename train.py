@@ -9,7 +9,9 @@ if __name__ == '__main__':
     model.train(
         data="data.yaml",
                 mode="detect",
-                epochs=100,
+                epochs=1000,
                 imgsz=640,
+                batch=100,
+                patience=500,
                 device=0
     )

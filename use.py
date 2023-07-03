@@ -4,5 +4,5 @@ result = model.predict(
     source="test/images",
     mode="predict",
     save=True,
-    device="cpu"
+    device=0
 )
